@@ -4,12 +4,12 @@ export class CreateMessageDto {
   @IsString()
   content: string;
 
-  @IsInt()
+  /* @IsInt()
   count: number;
 
   @IsString()
   name: string;
 
   @IsString()
-  dob: string;
+  dob: string;*/
 }
